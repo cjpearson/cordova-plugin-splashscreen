@@ -35,6 +35,11 @@
     [self setVisible:YES];
 }
 
+- (void)onReset
+{
+    [self setVisible:YES];
+}
+
 - (void)show:(CDVInvokedUrlCommand*)command
 {
     [self setVisible:YES];
